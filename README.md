@@ -8,16 +8,26 @@ Whenever I start a new project, I don't know what to write for the first commit.
 npm install -g random-str-msg
 ```
 
-# Usage
+## Usage
+
+To get only the message:
 
 ```bash
  random-str-msg
 ```
 
-# Contributing
+To make an automatic commit with a random message, pass the argument `--commit`
+
+```bash
+ random-str-msg --commit
+```
+
+The cli tool will open and allow you to choose the message for your commit and it will automatically do the commit.
+
+## Contributing
 
 If someone wants to add or improve something, I invite you to collaborate directly in this repository: [random-str-msg](https://github.com/gndx/random-str-msg)
 
-# License
+## License
 
 funny-commit is released under the [MIT License](https://opensource.org/licenses/MIT).
