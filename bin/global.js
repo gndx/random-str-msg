@@ -11,7 +11,7 @@ let response = "";
 let quote = "";
 
 // Main function.
-if (args[0]) {
+if (args[0] === "--commit") {
   (async () => {
     // Show the title.
     console.log(chalk.green.bgBlue.bold(" Random Commit Msg "));
